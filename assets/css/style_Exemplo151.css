@@ -1,0 +1,61 @@
+    h3,
+    a {
+        margin: auto;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    
+    a {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+    
+    a:link,
+    a:visited {
+        text-decoration: none
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color: rgb(67, 34, 218)
+    }
+    
+    a:active {
+        text-decoration: none
+    }
+    
+    .container {
+        display: grid;
+        height: 100vh;
+        grid-template-areas: "a a a a    a a a a    a a a a" "b b b b    b b b b    e e e e" "b b b b    b b b b    e e e e" "c c c c    d d d d    e e e e";
+        grid-gap: 20px;
+    }
+    
+    .box-1 {
+        grid-area: a;
+        background-color: rgb(67, 34, 218);
+    }
+    
+    .box-2 {
+        grid-area: b;
+        background-color: rgb(34, 166, 218);
+    }
+    
+    .box-3 {
+        grid-area: c;
+        background-color: rgb(212, 34, 218);
+    }
+    
+    .box-4 {
+        grid-area: d;
+        background-color: rgb(34, 218, 132);
+    }
+    
+    .box-5 {
+        grid-area: e;
+        background-color: rgb(218, 108, 34);
+    }
